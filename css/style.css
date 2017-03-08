@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+	margin: 2rem auto;
+	text-align: center;
+}
+
+.mainContent {
+	width: 70%;
+	margin: 2rem auto;
+}
+
+.fitSlider {
+	width: 100%;
+	overflow: hidden;
+}
+
+.sliderContainer {
+	position: relative;
+	height: auto;
+}
+
+.slideBloc {
+	float: left;
+}
+
+.slideBloc img {
+	width: 100%;
+}
+
+.sliderBtn {
+	font-size: 5rem;
+	cursor: pointer;
+}
+
+.sliderBtn--next {
+	float: right;
+}
